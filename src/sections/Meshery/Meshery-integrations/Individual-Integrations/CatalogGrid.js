@@ -52,7 +52,7 @@ const CatalogGrid = ({ frontmatter }) => {
             return (
               <CatalogCard
                 key={index}
-                cardLink={`https://meshery.layer5.io/catalog/content/catalog/${item?.id}`}
+                cardLink={`https://cloud.layer5.io/catalog/content/catalog/${item?.id}`}
                 cardHeight="20rem"
                 cardWidth="16rem"
                 pattern={item}
